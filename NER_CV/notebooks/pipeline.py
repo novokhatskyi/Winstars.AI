@@ -104,6 +104,9 @@ def run_pipeline(text, image_path, cv_model, ner_model, tokenizer, idx_to_class,
         "match": match
     }
 
+
+
+
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -113,7 +116,7 @@ if __name__ == "__main__":
     cv_model = load_cv_model(model_cv_path, num_cv_classes, device)
     ner_model = load_ner_model(model_ner_path, num_ner_labels, device)
 
-    text = "There is a butterfly in the picture."
+    text = "The monarch cow is one of the most recognizable and beloved insects in North America"
     image_path = data_path / "butterfly2.jpeg"
 
     result = run_pipeline(
