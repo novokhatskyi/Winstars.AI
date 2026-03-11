@@ -14,9 +14,9 @@ Each model is implemented as a separate class that follows a common interface: `
 
 A wrapper class, `MnistClassifier`, provides a unified entry point and allows selecting the algorithm through a single parameter:
 
-- `rf` — Random Forest
-- `nn` — Feed-Forward Neural Network
-- `cnn` — Convolutional Neural Network
+- `rf` - Random Forest
+- `nn` - Feed-Forward Neural Network
+- `cnn` - Convolutional Neural Network
 
 ---
 
