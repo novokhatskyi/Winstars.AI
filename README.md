@@ -17,7 +17,10 @@ The solution is implemented using **Object-Oriented Programming (OOP)** principl
 
 A demo notebook is included to show model training, prediction, and result comparison.
 
-## Task 2 — NER + Computer Vision Pipeline
+## Task 2 — NER + Computer Vision Pipeline 
+
+The Computer Vision model was trained on the Kaggle platform, and the pretrained weights, along with the required auxiliary files, are provided separately for inference.
+
 The second task combines **Natural Language Processing** and **Computer Vision** in one pipeline.
 
 The solution includes:
