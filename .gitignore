@@ -30,4 +30,3 @@ Thumbs.db
 NER_CV/models/
 *.pt
 *.pth
-data/
